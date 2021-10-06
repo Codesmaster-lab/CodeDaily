@@ -8,7 +8,8 @@ import com.Codezeon.crud.dailycode.entity.Question;
 import java.util.*;
 @CrossOrigin
 //(origins="https://codedaily.herokuapp.com/")
-@RestController
+//@RestController
+@RequestMapping
 public class QuesController {
   @Autowired
     private QuesService service;
