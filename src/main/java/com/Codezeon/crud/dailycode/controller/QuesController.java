@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import com.Codezeon.crud.dailycode.service.QuesService;
 import com.Codezeon.crud.dailycode.entity.Question;
 import java.util.*;
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="https://codedaily.herokuapp.com/")
 @RestController
 public class QuesController {
   @Autowired
