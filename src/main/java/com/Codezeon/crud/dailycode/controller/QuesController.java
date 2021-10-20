@@ -7,7 +7,7 @@ import com.Codezeon.crud.dailycode.service.QuesService;
 import com.Codezeon.crud.dailycode.entity.Question;
 import java.util.*;
 @CrossOrigin
-(origins="https://codedaily.herokuapp.com/")
+(origins="http://codedaily.herokuapp.com/")
 @RestController
 //@RequestMapping
 public class QuesController {
